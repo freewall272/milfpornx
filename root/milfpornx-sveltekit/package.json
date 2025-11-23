@@ -1,0 +1,38 @@
+{
+	"name": "dimesirl-project",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"engines": {
+		"node": "22.x"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "node build",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-node": "^5.4.0",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/kit": "^2.47.1",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"svelte": "^5.41.0",
+		"svelte-check": "^4.3.3",
+		"typescript": "^5.9.3",
+		"vite": "^7.1.10"
+	},
+	"dependencies": {
+		"@resvg/resvg-js": "^2.6.2",
+		"@tailwindcss/vite": "^4.1.17",
+		"dotenv": "^17.2.3",
+		"lodash-es": "^4.17.21",
+		"lodash.throttle": "^4.1.1",
+		"satori": "^0.18.3",
+		"tailwindcss": "^4.1.17"
+	}
+}
