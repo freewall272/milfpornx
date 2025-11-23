@@ -84,7 +84,7 @@ async function toggleSearch() {
 
     <!-- Logo -->
     <a href="/" class="flex items-center h-full">
-      <img src="/logotrans.svg" alt="Logo" class="h-10 w-auto object-contain" />
+      <img src="/logotrans.png" alt="Logo" class="h-10 w-auto object-contain" />
     </a>
 
     <!-- Desktop Nav -->
