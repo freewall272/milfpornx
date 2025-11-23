@@ -47,7 +47,7 @@
 
     <!-- BOTTOM COPYRIGHT -->
     <div class="border-t border-gray-800 mt-12 pt-6 text-center text-gray-500 text-sm">
-      © 2020 - {new Date().getFullYear()} AsianPornXXX.com — All Rights Reserved. All models are 18+ y.o.
+      © 2020 - {new Date().getFullYear()} milfpornx.com — All Rights Reserved. All models are 18+ y.o.
     </div>
 
   </div>
