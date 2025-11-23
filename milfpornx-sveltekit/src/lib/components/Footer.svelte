@@ -36,7 +36,7 @@
         <ul class="space-y-3 text-gray-300 text-sm">
 
           <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ3mSww2TQmF2pC7s2MtWD7WohURamZQiZnMmMyHxUn8bbFA/viewform?usp=publish-editor" class="hover:text-white transition">Contact Us</a></li>
-          <li><a href="/dmca" class="hover:text-white transition">DMCA</a></li>
+          <li><a href="/dmca" class="hover:text-white transition">DMCAs</a></li>
           <li><a href="/terms" class="hover:text-white transition">Terms & Conditions</a></li>
           <li><a href="/2257" class="hover:text-white transition">2257</a></li>
           <li><a href="/privacy" class="hover:text-white transition">Privacy Policy</a></li>
