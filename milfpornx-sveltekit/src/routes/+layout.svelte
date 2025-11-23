@@ -21,10 +21,10 @@ import { page } from "$app/stores";
 
 <svelte:head>
   {#if $page.data?.seo}
-    <title>{$page.data.seo.title || "AsianPornXXX"}</title>
+    <title>{$page.data.seo.title || "milfpornx"}</title>
 
-    <meta name="description" content={$page.data.seo?.description || "Best free Asian porn videos updated daily."} />
-    <link rel="canonical" href={$page.data.seo.canonical || "https://asianpornxxx.com"}/>
+    <meta name="description" content={$page.data.seo?.description || "Best free Milf porn videos"} />
+    <link rel="canonical" href={$page.data.seo.canonical || "https://milfpornx.com"}/>
 
     <!-- Open Graph -->
     <meta property="og:title" content={$page.data.seo.title} />

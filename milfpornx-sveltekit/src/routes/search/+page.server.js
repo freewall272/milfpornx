@@ -12,10 +12,9 @@ export async function load({ fetch, url }) {
       videos: [],
 
       seo: buildSEO({
-        title: "Search – AsianPornXXX",
-        description: "Search across 20,000+ Asian porn videos.",
-        canonical: "https://asianpornxxx.com/search",
-        image: "/og/search.png"
+        title: "Search – milfpornx",
+        description: "Search across 20,000+ Milf porn videos.",
+        canonical: `${SITE_URL}/search`,
       })
     };
   }
@@ -41,7 +40,7 @@ export async function load({ fetch, url }) {
       seo: buildSEO({
         title: `Search: ${query}`,
         description: `Search results for ${query}.`,
-        canonical: `https://asianpornxxx.com/search?q=${encodeURIComponent(query)}`,
+        canonical: `${SITE_URL}/search?q=${encodeURIComponent(query)}`,
       })
     };
   }
@@ -56,8 +55,8 @@ export async function load({ fetch, url }) {
 
     seo: buildSEO({
       title: `${query} Porn Videos`,
-      description: `Search results for ${query} on AsianPornXXX.`,
-      canonical: `https://asianpornxxx.com/search?q=${encodeURIComponent(query)}`,
+      description: `Search results for ${query} on milfpornx.`,
+      canonical: `${SITE_URL}/search?q=${encodeURIComponent(query)}`,
     })
   };
 }

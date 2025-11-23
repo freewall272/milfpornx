@@ -13,18 +13,18 @@ export async function load({ fetch, url }) {
 
   // Title logic
   const title = page === 1
-    ? "Free Milf Porn Videos & Best Asian Sex Videos - AsianPornXXX"
-    : `Free Asian Porn Videos on AsianPornXXX – Page ${page}`;
+    ? "Free Milf Porn Videos & Best Milf Sex Videos - milfpornx"
+    : `Free Milf Porn Videos on milfpornx – Page ${page}`;
 
   // Description logic
   const description = page === 1
-    ? "Watch the best free Asian porn videos on AsianPornXXX"
-    : `Watch the best free Asian porn videos on AsianPornXXX – page ${page}.`;
+    ? "Watch the best free milf porn videos on milfpornx"
+    : `Watch the best free milf porn videos on milfpornx – page ${page}.`;
 
   // Canonical logic
   const canonical = page === 1
-    ? "https://asianpornxxx.com"
-    : `https://asianpornxxx.com/?page=${page}`;
+    ? SITE_URL
+    : `${SITE_URL}/?page=${page}`;
 
   const payload = {
     page: json.page,

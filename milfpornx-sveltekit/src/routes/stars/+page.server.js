@@ -15,9 +15,9 @@ export async function load({ fetch }) {
     totalStars: json.totalStars,
 
     seo: buildSEO({
-      title: `Asian Pornstars: Gallery of Pornstars - asianpornxxx.com`,
-      description: `Choose your favorite Asian Pornstar and get all her videos.`,
-      canonical: `https://asianpornxxx.com/stars`,
+      title: `Pornstars: Gallery of Pornstars - milfpornx.com`,
+      description: `Choose your favorite Slutty Mom Pornstar and get all her videos.`,
+      canonical: `${SITE_URL}/stars`,
     })
   };
 }

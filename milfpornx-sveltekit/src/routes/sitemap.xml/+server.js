@@ -1,11 +1,12 @@
 // src/routes/sitemap.xml/+server.js
+import { API_URL, SITE_URL } from '$lib/config.js';
 import { json } from '@sveltejs/kit';
 
 const CACHE_TTL = 1000 * 60 * 60 * 14; // 14 hours
 let cachedXml = null;
 let cachedAt = 0;
 
-const DOMAIN = "https://asianpornxxx.com";
+const DOMAIN = SITE_URL;
 
 // These routes are static (not paginated)
 const STATIC_ROUTES = [
@@ -31,7 +32,7 @@ const PAGINATED_ROUTES = [
 // ----------------------------
 async function getTotalPages(fetch) {
   try {
-    const res = await fetch("https://api.asianpornxxx.com/home?page=1", {
+    const res = await fetch(`${API_URL}/home?page=1`, {
       headers: { "x-api-key": process.env.VITE_API_KEY }
     });
 

@@ -31,9 +31,9 @@ export async function load({ params, fetch }) {
     star,
     videos,
     seo: buildSEO({
-      title: `${star.name} Porn Video Gallery - All ${star.name} Sex Movies & Porn Videos on AsianPornXXX`,
-      description: `Watch all Asian porn videos featuring ${star.name}.`,
-      canonical: `https://asianpornxxx.com/stars/${slug}`,
+      title: `${star.name} Porn Video Gallery - All ${star.name} Sex Movies & Porn Videos on milfpornx`,
+      description: `Watch all milf porn videos featuring ${star.name}.`,
+      canonical: `https://milfpornx.com/stars/${slug}`,
     })
   };
 }

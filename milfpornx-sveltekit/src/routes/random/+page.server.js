@@ -13,9 +13,9 @@ export async function load({ fetch }) {
     videos: json.data,
 
     seo: buildSEO({
-      title: `Random Asian Porn Videos: Free Asian Porn Videos - asianpornxxx.com`,
-      description: `Discover randomly selected Asian porn videos refreshed on every visit.`,
-      canonical: `https://asianpornxxx.com/random`,
+      title: `Random Milf Porn Videos: Free Milf Porn Videos - milfpornx.com`,
+      description: `Discover randomly selected milf porn videos refreshed on every visit.`,
+      canonical: `${SITE_URL}/random`,
     })
   };
 }

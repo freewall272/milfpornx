@@ -15,16 +15,16 @@ export async function load({ fetch, url }) {
   const isFirstPage = page === 1;
 
   const title = isFirstPage
-    ? "Best Asian Porn & Sex Movies - AsianPornXXX"
+    ? `Best Milf Porn & Sex Movies - milfpornx.com`
     : `Most Viewed Videos – Page ${page}`;
 
   const description = isFirstPage
-    ? "Watch the best Asian porn videos on AsianPornXXX.com."
-    : `Watch the most viewed Asian porn videos on AsianPornXXX — page ${page}.`;
+    ? `Watch the best milf porn videos on milfpornx.com`
+    : `Watch the most viewed milf porn videos on milfpornx — page ${page}.`;
 
   const canonical = isFirstPage
-    ? "https://asianpornxxx.com/best"
-    : `https://asianpornxxx.com/best?page=${page}`;
+    ? `${SITE_URL}/best`
+    : `${SITE_URL}/best?page=${page}`;
 
   const payload = {
     page: json.page,
@@ -35,7 +35,7 @@ export async function load({ fetch, url }) {
       title,
       description,
       canonical,
-      image: `https://asianpornxxx.com/og/og-best.jpg`
+      image: `https://milfpornx.com/og/og-best.jpg`
 
     })
   };
