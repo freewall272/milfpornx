@@ -151,12 +151,12 @@ async function toggleSearch() {
 </a>
 
 <a 
-  href="https://lezbabes.com" 
+  href="https://asianpornxxx.com" 
   target="_blank"
   class="hidden lg:flex items-center px-4 py-2 rounded-lg bg-black text-white font-bold shadow-md 
          hover:bg-gray-800 hover:shadow-lg transition-all duration-300"
 >
-  LESBIAN PORN
+  ASIAN PORN
 </a>
 
 </nav>
@@ -217,7 +217,7 @@ ${hideMobileUI ? "delay-75" : "delay-300"}
     <a href={PUBLIC_LINK_LIVE_SEX} target="_blank" class="transition">LIVE SEX</a>
     <a href={PUBLIC_LINK_MEETFUCK} target="_blank" class=" transition">MEET & FUCK</a>
     <a href={PUBLIC_LINK_AI_GF} target="_blank" class="transition">AI GF</a>
-    <a href="https://lezbabes.com" target="_blank" class="transition">LESBIAN PORN</a>
+    <a href="https://asianpornxxx.com" target="_blank" class="transition">ASIAN PORN</a>
   </div>
 </div>
 
