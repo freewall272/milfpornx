@@ -1,10 +1,11 @@
 import { buildSEO } from "$lib/seo";
+import {SITE_URL, API_URL} from "$lib/config.js"
 
 export async function load({ params, fetch }) {
   const slug = params.slug;
 
   // 1️⃣ Fetch list of all stars
-  const resStars = await fetch(`https://api.asianpornxxx.com/stars`, {
+  const resStars = await fetch(`${API_URL}/stars`, {
     headers: { "x-api-key": import.meta.env.VITE_API_KEY }
   });
 
@@ -17,7 +18,7 @@ export async function load({ params, fetch }) {
 
   // 2️⃣ Fetch videos for this star
   const resVideos = await fetch(
-    `https://api.asianpornxxx.com/search?q=${encodeURIComponent(star.name)}`,
+    `${API_URL}/search?q=${encodeURIComponent(star.name)}`,
     { headers: { "x-api-key": import.meta.env.VITE_API_KEY } }
   );
 

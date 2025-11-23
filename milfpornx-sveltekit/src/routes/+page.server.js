@@ -1,10 +1,11 @@
 import { buildSEO } from "$lib/seo";
+import {SITE_URL, API_URL} from "$lib/config.js"
 
 export async function load({ fetch, url }) {
   const page = Number(url.searchParams.get("page") || 1);
 
   const res = await fetch(
-    `https://api.asianpornxxx.com/home?page=${page}&limit=120`,
+    `${API_URL}/home?page=${page}&limit=120`,
     { headers: { "x-api-key": import.meta.env.VITE_API_KEY } }
   );
 
@@ -12,7 +13,7 @@ export async function load({ fetch, url }) {
 
   // Title logic
   const title = page === 1
-    ? "Free Asian Porn Videos & Best Asian Sex Videos - AsianPornXXX"
+    ? "Free Milf Porn Videos & Best Asian Sex Videos - AsianPornXXX"
     : `Free Asian Porn Videos on AsianPornXXX – Page ${page}`;
 
   // Description logic

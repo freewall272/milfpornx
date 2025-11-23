@@ -9,7 +9,7 @@
         <!-- Divider -->
         <div class="border-t border-gray-200 mb-6 opacity-50"></div>
 
-        <img src="/logodark.png" alt="Logo" class="h-12 w-auto opacity-90 mb-4" />
+        <img src="/logotrans.svg" alt="Logo" class="h-12 w-auto opacity-90 mb-4" />
 
     
       </div>

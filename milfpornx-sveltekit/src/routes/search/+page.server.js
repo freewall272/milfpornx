@@ -1,4 +1,5 @@
 import { buildSEO } from "$lib/seo";
+import {SITE_URL, API_URL} from "$lib/config.js"
 
 export async function load({ fetch, url }) {
   const query = url.searchParams.get("q")?.trim() || "";
@@ -22,7 +23,7 @@ export async function load({ fetch, url }) {
   const page = parseInt(url.searchParams.get("page") || "1", 10);
   const limit = parseInt(url.searchParams.get("limit") || "120", 10);
 
-  const apiUrl = `https://api.asianpornxxx.com/search?q=${encodeURIComponent(query)}&page=${page}&limit=${limit}`;
+  const apiUrl = `${API_URL}/search?q=${encodeURIComponent(query)}&page=${page}&limit=${limit}`;
 
   const res = await fetch(apiUrl, {
     headers: {

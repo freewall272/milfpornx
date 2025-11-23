@@ -75,7 +75,7 @@ async function toggleSearch() {
 </script>
 
 <header
-  class={`fixed top-0 left-0 w-full bg-yellow-200 border-b border-yellow-300 shadow-sm z-50
+  class={`fixed top-0 left-0 w-full bg-white border-b border-black shadow-sm z-50
     h-[60px] transition-transform duration-500
     ${hideMobileUI ? "-translate-y-full" : "translate-y-0"}`}
 >
@@ -84,7 +84,7 @@ async function toggleSearch() {
 
     <!-- Logo -->
     <a href="/" class="flex items-center h-full">
-      <img src="/logo.png" alt="Logo" class="h-10 w-auto object-contain" />
+      <img src="/logotrans.svg" alt="Logo" class="h-10 w-auto object-contain" />
     </a>
 
     <!-- Desktop Nav -->
@@ -122,39 +122,42 @@ async function toggleSearch() {
             hover:after:w-full">
     PORNSTARS
   </a>
+<!-- External Buttons (Desktop Only) -->
+<a 
+  href={PUBLIC_LINK_LIVE_SEX} 
+  target="_blank"
+  class="hidden lg:flex items-center px-4 py-2 rounded-lg bg-pink-600 text-white font-bold shadow-md 
+         hover:bg-pink-700 hover:shadow-lg transition-all duration-300"
+>
+  LIVE SEX
+</a>
 
-  <!-- External links -->
-  <a href={PUBLIC_LINK_LIVE_SEX} target="_blank"
-     class="relative h-full flex items-center px-2 text-pink-700
-            after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-0
-            after:bg-pink-700 after:transition-all after:duration-300
-            hover:after:w-full">
-    LIVE SEX
-  </a>
+<a 
+  href={PUBLIC_LINK_MEETFUCK} 
+  target="_blank"
+  class="hidden lg:flex items-center px-4 py-2 rounded-lg bg-blue-600 text-white font-bold shadow-md 
+         hover:bg-blue-700 hover:shadow-lg transition-all duration-300"
+>
+  MEET & FUCK
+</a>
 
-  <a href={PUBLIC_LINK_MEETFUCK} target="_blank"
-     class="relative h-full flex items-center px-2
-            after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-0
-            after:bg-black after:transition-all after:duration-300
-            hover:after:w-full">
-    MEET & FUCK
-  </a>
+<a 
+  href={PUBLIC_LINK_AI_GF} 
+  target="_blank"
+  class="hidden lg:flex items-center px-4 py-2 rounded-lg bg-pink-600 text-white font-bold shadow-md 
+         hover:bg-pink-700 hover:shadow-lg transition-all duration-300"
+>
+  AI GIRLFRIEND
+</a>
 
-  <a href={PUBLIC_LINK_AI_GF} target="_blank"
-     class="relative h-full flex items-center px-2 text-pink-700
-            after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-0
-            after:bg-pink-700 after:transition-all after:duration-300
-            hover:after:w-full">
-    AI GIRLFRIEND
-  </a>
-
-  <a href="https://lezbabes.com" target="_blank"
-     class="relative h-full flex items-center px-2
-            after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-0
-            after:bg-black after:transition-all after:duration-300
-            hover:after:w-full">
-    LESBIAN PORN
-  </a>
+<a 
+  href="https://lezbabes.com" 
+  target="_blank"
+  class="hidden lg:flex items-center px-4 py-2 rounded-lg bg-black text-white font-bold shadow-md 
+         hover:bg-gray-800 hover:shadow-lg transition-all duration-300"
+>
+  LESBIAN PORN
+</a>
 
 </nav>
 
@@ -167,7 +170,7 @@ async function toggleSearch() {
           on:keydown={handleSearch}
           placeholder="Search 21,364 videos..."
           class="w-full px-4 py-2 rounded-full bg-white text-black placeholder-gray-600 border border-gray-300
-                 focus:outline-none focus:border-pink-500 transition"
+                 focus:outline-none focus:border-purple-500 transition"
         />
       </div>
 
